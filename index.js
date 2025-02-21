@@ -18,8 +18,6 @@ if (!SHIPSTATION_API_KEY || !SHIPSTATION_API_SECRET) {
   console.error("❌ ShipStation API credentials are missing.");
   process.exit(1);
 }
-console.log(SHIPSTATION_API_KEY);
-console.log(SHIPSTATION_API_SECRET);
 
 // ✅ Function to generate Basic Auth header
 const getAuthHeader = () => {
