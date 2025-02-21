@@ -26,7 +26,7 @@ const getAuthHeader = () => {
   ).toString("base64")}`;
 };
 
-app.post("/get-rates", async (req, res) => {
+app.get("/get-rates", async (req, res) => {
   const {
     weightValue,
     weightunits,
