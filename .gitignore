@@ -1,0 +1,138 @@
+# Ignore node_modules and package-lock.json
+node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore build and cache files
+build/
+dist/
+.out/
+.next/
+.vercel/
+.netlify/
+.cache/
+remix.cache/
+.remix/
+.swp
+*.swp
+*.swo
+
+# Ignore dotenv environment variables
+.env
+.env.development
+.env.production
+.env.test
+.env.local
+.env.*.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.debug/
+
+# Ignore temporary files
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Ignore coverage reports
+coverage/
+*.lcov
+*.clover
+.nyc_output/
+
+# Ignore public asset transformations
+public/static/
+public/assets/
+public/images/
+public/uploads/
+public/build/
+
+# Ignore Remix-specific files
+build/
+public/build/
+server/build/
+server/tsconfig.tsbuildinfo
+
+# Ignore Next.js build files
+.next/
+out/
+
+# Ignore Firebase files
+.firebase/
+firestore-debug.log
+
+# Ignore TypeScript cache and compiled files
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# Ignore testing-related files
+jest/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+playwright-report/
+
+# Ignore SQLite database files (for local dev)
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore WordPress uploads and config files
+wp-config.php
+wp-content/uploads/
+wp-content/backup/
+wp-content/cache/
+wp-content/debug.log
+
+# Ignore local Composer dependencies (PHP projects)
+vendor/
+composer.lock
+
+# Ignore Python cache files (if using Python scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore miscellaneous
+*.bak
+*.log
+*.out
+*.pid
+*.seed
+*.sock
+
+# Ignore deployment files
+/.env
+/.venv
+/.nvmrc
+/.node-version
+/.editorconfig
+/.eslintcache
+/.prettierignore
+/.husky/
+husky/
+lerna-debug.log
+*.lock

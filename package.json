@@ -1,0 +1,30 @@
+{
+  "name": "ship-proxy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sovatkumar/ship-station.git"
+  },
+  "keywords": [
+    "Ship",
+    "station",
+    "proxy",
+    "server"
+  ],
+  "author": "MisterSk Infotech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sovatkumar/ship-station/issues"
+  },
+  "homepage": "https://github.com/sovatkumar/ship-station#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
