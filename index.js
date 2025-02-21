@@ -27,20 +27,28 @@ const getAuthHeader = () => {
 };
 
 app.post("/get-rates", async (req, res) => {
+  const {
+    weightValue,
+    weightunits,
+    fromPostalCode,
+    toCountry,
+    toState,
+    toPostalCode,
+    toCity,
+  } = req.body;
   try {
-    // ✅ Prepare the request payload
     const requestData = {
       carrierCode: "fedex_walleted",
       serviceCode: null,
       packageCode: null,
-      fromPostalCode: "78703",
-      toState: "DC",
-      toCountry: "US",
-      toPostalCode: "20500",
-      toCity: "Washington",
+      fromPostalCode: fromPostalCode || "78703",
+      toState: toState || "DC",
+      toCountry: toCountry || "US",
+      toPostalCode: toPostalCode || "20500",
+      toCity: toCity || "Washington",
       weight: {
-        value: 3,
-        units: "ounces",
+        value: weightValue || 3,
+        units: weightunits || "ounces",
       },
       dimensions: {
         units: "inches",
