@@ -50,12 +50,12 @@ app.post("/get-rates", async (req, res) => {
         value: weightValue,
         units: weightunits,
       },
-      dimensions: {
-        units: "inches",
-        length: 7,
-        width: 5,
-        height: 6,
-      },
+      // dimensions: {
+      //   units: "inches",
+      //   length: 7,
+      //   width: 5,
+      //   height: 6,
+      // },
       confirmation: "delivery",
       residential: false,
     };
